@@ -32,4 +32,3 @@ graph TD
     NotEligible --> End[Завершение]
     CompleteRegistration --> End
 ```
-![Page 1](test_drawio.drawio)
