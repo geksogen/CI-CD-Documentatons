@@ -29,6 +29,7 @@ theme:
 plugins:
     - search
     - mermaid2
+    - drawio-exporter
 
 markdown_extensions:
   - pymdownx.superfences:
