@@ -30,15 +30,22 @@ requirementDiagram
     verifymethod: test
     }
 
-    requirement FRQ_1_777 {
-    id: 4
+    requirement FRQ_1_5 {
+    id: 5
+    text: Add 1XBET
+    risk: low
+    verifymethod: test
+    }
+
+    requirement FRQ_1_6 {
+    id: 7
     text: Add 1XBET
     risk: low
     verifymethod: test
     }
 
     requirement NFR_1_1 {
-    id: 5
+    id: 52
     text: Performance
     risk: high
     verifymethod: test
@@ -59,8 +66,16 @@ requirementDiagram
     }
 
     requirement NFR_1_4 {
-    id: 8
+    id: 78
     text: database sql
+    risk: high
+    verifymethod: test
+    }
+
+
+    requirement NFR_1_53 {
+    id: 10
+    text: 1000 sessions at a moment
     risk: high
     verifymethod: test
     }
@@ -73,12 +88,14 @@ requirementDiagram
     BRQ_1_1 - satisfies -> FRQ_1_1
     FRQ_1_4 - contains -> FRQ_1_1
     BRQ_1_1 - satisfies -> FRQ_1_2
-    BRQ_1_1 - satisfies -> FRQ_1_777
+    BRQ_1_1 - satisfies -> FRQ_1_5
     FRQ_1_2 - contains -> FRQ_1_3
     BRQ_1_1 - satisfies -> NFR_1_1
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
-  
+    BRQ_1_1 - satisfies -> FRQ_1_6
+
+
 ```
 
