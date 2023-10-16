@@ -31,7 +31,7 @@ requirementDiagram
     }
 
     requirement FRQ_1_5 {
-    id: 4
+    id: 5
     text: Add 1XBET
     risk: low
     verifymethod: test
@@ -66,7 +66,7 @@ requirementDiagram
     }
 
     requirement NFR_1_5 {
-    id: 8
+    id: 10
     text: 1000 sessions at a moment
     risk: high
     verifymethod: test
@@ -86,7 +86,5 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
-    NRF_1_1 - contains -> NRF_1_5
-  
 ```
 
