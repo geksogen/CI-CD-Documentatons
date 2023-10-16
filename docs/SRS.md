@@ -4,9 +4,9 @@
 requirementDiagram
     requirement FRQ_1_1 {
     id: 1
-    text: Registration client_PRIVET
+    text: Registration client
     risk: high
-    verifymethod: test1
+    verifymethod: test
     }
 
     requirement FRQ_1_2 {
