@@ -37,6 +37,13 @@ requirementDiagram
     verifymethod: test
     }
 
+    requirement FRQ_1_6 {
+    id: 7
+    text: Add 1XBET
+    risk: low
+    verifymethod: test
+    }
+
     requirement NFR_1_1 {
     id: 5
     text: Performance
@@ -86,6 +93,7 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
+    BRQ_1_1 - satisfies -> FRQ_1_6
 <<<<<<< HEAD
     FRQ_1_4 - contains -> NFR_1_5_1
 =======
