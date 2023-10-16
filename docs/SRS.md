@@ -30,7 +30,7 @@ requirementDiagram
     verifymethod: test
     }
 
-    requirement FRQ_1_777 {
+    requirement FRQ_1_5 {
     id: 4
     text: Add 1XBET
     risk: low
@@ -65,6 +65,13 @@ requirementDiagram
     verifymethod: test
     }
 
+    requirement NFR_1_5 {
+    id: 8
+    text: 1000 sessions at a moment
+    risk: high
+    verifymethod: test
+    }
+
     element BRQ_1_1 {
     type: BRQ
 
@@ -73,12 +80,13 @@ requirementDiagram
     BRQ_1_1 - satisfies -> FRQ_1_1
     FRQ_1_4 - contains -> FRQ_1_1
     BRQ_1_1 - satisfies -> FRQ_1_2
-    BRQ_1_1 - satisfies -> FRQ_1_777
+    BRQ_1_1 - satisfies -> FRQ_1_5
     FRQ_1_2 - contains -> FRQ_1_3
     BRQ_1_1 - satisfies -> NFR_1_1
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
+    NRF_1_1 - contains -> NRF_1_5
   
 ```
 
