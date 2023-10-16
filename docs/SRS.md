@@ -95,11 +95,7 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
     BRQ_1_1 - satisfies -> FRQ_1_6
-<<<<<<< HEAD
-=======
->>>>>>> 4a971f1818576efc5bf364602d678fbbe3cfdec6
-    FRQ_1_4 - contains -> NFR_1_5_1
-    FRQ_1_2 - contains -> FRQ_1_5
+
 
 ```
 
