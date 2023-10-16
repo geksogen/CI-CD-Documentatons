@@ -31,7 +31,7 @@ requirementDiagram
     }
 
     requirement FRQ_1_5 {
-    id: 4
+    id: 5
     text: Add 1XBET
     risk: low
     verifymethod: test
@@ -45,7 +45,7 @@ requirementDiagram
     }
 
     requirement NFR_1_1 {
-    id: 5
+    id: 52
     text: Performance
     risk: high
     verifymethod: test
@@ -66,16 +66,17 @@ requirementDiagram
     }
 
     requirement NFR_1_4 {
-    id: 8
+    id: 78
     text: database sql
     risk: high
     verifymethod: test
     }
 
- requirement NFR_1_5_1{
-    id: 58
-    text: Class 16.10.2023
-    risk: low
+
+    requirement NFR_1_53 {
+    id: 10
+    text: 1000 sessions at a moment
+    risk: high
     verifymethod: test
     }
 
@@ -87,17 +88,18 @@ requirementDiagram
     BRQ_1_1 - satisfies -> FRQ_1_1
     FRQ_1_4 - contains -> FRQ_1_1
     BRQ_1_1 - satisfies -> FRQ_1_2
-    BRQ_1_1 - satisfies -> FRQ_1_777
+    BRQ_1_1 - satisfies -> FRQ_1_5
     FRQ_1_2 - contains -> FRQ_1_3
     BRQ_1_1 - satisfies -> NFR_1_1
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
-    BRQ_1_1 - contains -> FRQ_1_6
+    BRQ_1_1 - satisfies -> FRQ_1_6
 <<<<<<< HEAD
-    FRQ_1_4 - contains -> NFR_1_5_1
 =======
+>>>>>>> 4a971f1818576efc5bf364602d678fbbe3cfdec6
+    FRQ_1_4 - contains -> NFR_1_5_1
     FRQ_1_2 - contains -> FRQ_1_5
->>>>>>> c784e81b81b5258169004567562dd4b0b66c0e3b
+
 ```
 
