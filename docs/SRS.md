@@ -37,6 +37,14 @@ requirementDiagram
     verifymethod: test
     }
 
+    requirement FRQ_1_1789 {
+    id: 3
+    text: Cancel Registration
+    risk: high
+    verifymethod: test
+    }
+
+
     requirement NFR_1_1 {
     id: 5
     text: Performance
@@ -79,6 +87,7 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
+    BRQ_1_1 - contains -> FRQ_1_7789
   
 ```
 
