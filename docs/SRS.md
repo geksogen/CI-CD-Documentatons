@@ -31,7 +31,7 @@ requirementDiagram
     }
 
     requirement FRQ_1_777 {
-    id: 4
+    id: 777
     text: Add 1XBET
     risk: low
     verifymethod: test
