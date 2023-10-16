@@ -4,14 +4,14 @@
 requirementDiagram
     requirement FRQ_1_1 {
     id: 1
-    text: Registration client
+    text: Registration client_PRIVET
     risk: high
     verifymethod: test1
     }
 
     requirement FRQ_1_2 {
     id: 2
-    text: Authentication client
+    text: (_)Authentication client
     risk: high
     verifymethod: test
     }
