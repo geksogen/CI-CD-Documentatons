@@ -11,7 +11,7 @@ requirementDiagram
 
     requirement FRQ_1_2 {
     id: 2
-    text: (_)Authentication client
+    text: Authentication client
     risk: high
     verifymethod: test
     }
