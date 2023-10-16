@@ -65,6 +65,13 @@ requirementDiagram
     verifymethod: test
     }
 
+ requirement NFR_1_5_1{
+    id: 8
+    text: Class 16.10.2023
+    risk: low
+    verifymethod: test
+    }
+
     element BRQ_1_1 {
     type: BRQ
 
@@ -79,6 +86,6 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
-  
+    FRQ_1_4 - contains -> NFR_1_5_1
 ```
 
