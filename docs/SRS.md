@@ -93,7 +93,7 @@ requirementDiagram
     NFR_1_1 - contains -> NFR_1_2
     NFR_1_1 - contains -> NFR_1_3
     NFR_1_1 - contains -> NFR_1_4
-    BRQ_1_1 - satisfies -> FRQ_1_6
+    BRQ_1_1 - contains -> FRQ_1_6
 <<<<<<< HEAD
     FRQ_1_4 - contains -> NFR_1_5_1
 =======
