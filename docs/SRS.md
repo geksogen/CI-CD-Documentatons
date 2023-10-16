@@ -37,6 +37,13 @@ requirementDiagram
     verifymethod: test
     }
 
+    requirement FRQ_1_6 {
+    id: 7
+    text: Add 1XBET
+    risk: low
+    verifymethod: test
+    }
+
     requirement NFR_1_1 {
     id: 52
     text: Performance
