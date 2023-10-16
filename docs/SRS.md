@@ -38,7 +38,7 @@ requirementDiagram
     }
 
     requirement FRQ_1_1789 {
-    id: 3
+    id: 6
     text: Cancel Registration
     risk: high
     verifymethod: test
