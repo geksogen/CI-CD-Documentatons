@@ -6,7 +6,7 @@ requirementDiagram
     id: 1
     text: Registration client
     risk: high
-    verifymethod: test
+    verifymethod: test1
     }
 
     requirement FRQ_1_2 {
