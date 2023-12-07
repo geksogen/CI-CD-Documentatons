@@ -28,7 +28,7 @@ theme:
 
 plugins:
     - search
-    - mermaid2
+    - swagger-ui-tag
 
 markdown_extensions:
   - pymdownx.superfences:
