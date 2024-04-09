@@ -28,7 +28,8 @@ theme:
 
 plugins:
     - search
-    - mermaid2
+    - mermaid2:
+      version: 10.9.0
     - swagger-ui-tag
 
 markdown_extensions:
