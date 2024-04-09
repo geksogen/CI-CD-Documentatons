@@ -29,7 +29,7 @@ theme:
 plugins:
     - search
     - mermaid2:
-      version: 10.9.0
+        javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
     - swagger-ui-tag
 
 markdown_extensions:
