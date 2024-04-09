@@ -1,4 +1,5 @@
-## Requirement Diagram
+## API Swagger
+<swagger-ui src="https://petstore.swagger.io/v2/swagger.json"/>
 
 ```mermaid
 requirementDiagram
